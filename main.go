@@ -7,6 +7,7 @@ import (
 
 func main() {
 	var err error
+
 	/** 1.init router*/
 	server := router.InitRouter()
 

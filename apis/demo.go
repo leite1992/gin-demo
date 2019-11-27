@@ -16,7 +16,7 @@ type Demo struct {
 func (d *Demo) GetDemo (c *gin.Context) {
 	fmt.Print(*d)
 	c.JSON(successCode, gin.H{
-		"message": "get demo",
+		"message": "get demo ssssss",
 	})
 }
 
